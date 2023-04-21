@@ -1,0 +1,7 @@
+.cardHeader,
+.e-card-header-title {
+  font-weight: bold !important;
+  text-transform: uppercase !important;
+  width: inherit;
+  height: 3rem;
+}

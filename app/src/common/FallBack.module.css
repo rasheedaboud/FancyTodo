@@ -1,0 +1,8 @@
+.errorBox {
+    border: 2px dashed red;
+}
+
+.errorText {
+    color: red;
+    font-weight: bold;
+}

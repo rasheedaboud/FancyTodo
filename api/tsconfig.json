@@ -1,0 +1,22 @@
+{
+  "compilerOptions": {
+    "skipLibCheck": true,
+    "esModuleInterop": true,
+    "module": "commonjs",
+    "target": "es6",
+    "outDir": "dist",
+    "rootDir": "../",
+    "sourceMap": true,
+    "strict": false,
+    "types": [
+      "vitest/globals"
+    ]
+  },
+  "exclude": [
+    "node_modules",
+    "../node_modules",
+    "../node_modules",
+    "../node_modules/*",
+    "../node_modules/@types/node/index.d.ts",
+  ]
+}

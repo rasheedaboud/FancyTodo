@@ -1,0 +1,37 @@
+.wiggle-btn {
+  /* name duration timing-function delay iteration-count direction fill-mode */
+  animation: wiggle 3s linear 6s infinite normal none;
+}
+.wiggle-btn:hover {
+  animation: none;
+}
+@keyframes wiggle {
+  0%,
+  5% {
+    transform: rotateZ(0);
+  }
+  10% {
+    transform: rotateZ(-3deg);
+  }
+  15% {
+    transform: rotateZ(3deg);
+  }
+  20% {
+    transform: rotateZ(-3deg);
+  }
+  25% {
+    transform: rotateZ(1deg);
+  }
+  30% {
+    transform: rotateZ(-1deg);
+  }
+  35% {
+    transform: rotateZ(0);
+  }
+  40%,
+  50%,
+  60%,
+  100% {
+    transform: rotateZ(0);
+  }
+}
