@@ -1,5 +1,7 @@
 # Fancy Todo App
  
+ Why? Because the word definitely needs another Todo tracking application.
+ 
  Example of non trivial react app that uses following tech:
  
  - React
