@@ -23,7 +23,7 @@
  7. Fully responsive across all devices.
  
  # Road Map
- 1. Consider monitizing through subscriptions or adds.
+ 1. ~~Consider monitizing through subscriptions or adds~~. :white_check_mark:
  2. Allow users to add other people to todos (share or pass todos).
  3. Encrypt all todos at rest.
 
