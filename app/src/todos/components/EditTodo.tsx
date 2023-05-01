@@ -33,13 +33,7 @@ const EditTodo = () => {
         }}
         onSubmit={(values) => {
         try{
-          adBreak({
-            type: 'next',  // ad shows at start of next level
-            name: 'restart-game',
-            beforeAd: () => {  },  // You may also want to mute the game's sound.
-            afterAd: () => { update(values); },    // resume the game flow.
-          });
-          
+          update(values);
         }
         catch(error){
           console.log(error)
